@@ -1,0 +1,143 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{19, 82}, {94, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{227, 258}, {150, 32}}",
+          "uuid" : "CF7CF041-D935-4028-BC95-792DF17C7E6E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Length",
+          "name" : "Length_input_label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{19, 143}, {94, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{227, 258}, {150, 32}}",
+          "uuid" : "5E262445-3BB9-4D45-86F9-A1CD78A7C688",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Width",
+          "name" : "width_input_label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{152, 82}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{202, 258}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "ADF5F535-BF2F-4BE5-9E50-646C8FC4A800",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "length_textfield1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{152, 143}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{202, 258}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "5A44DBDE-4ACD-48D9-BB00-CF61AC5CFE47",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "width_textfield1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{84, 241}, {181, 88}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_area_and_perimeter_touch_up_inside",
+          "frame" : "{{262, 258}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "968C1706-460E-457B-8BB3-878DD4F08071",
+          "class" : "Button",
+          "name" : "Calculate_button1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{37, 372}, {374, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{227, 258}, {150, 32}}",
+          "uuid" : "F217AB07-5EB8-4B42-A96B-180A013B22AE",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "The area is : ",
+          "name" : "area_answer_label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{37, 434}, {374, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{227, 258}, {150, 32}}",
+          "uuid" : "B2A4960B-A266-4F83-AAE3-5F36F504B6B9",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "The perimeter is :",
+          "name" : "perimeter_answer_label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {604, 547}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
